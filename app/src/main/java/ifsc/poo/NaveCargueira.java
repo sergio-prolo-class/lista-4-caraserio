@@ -1,9 +1,11 @@
+package ifsc.poo;
+
 public class NaveCargueira extends NaveEspacial {
     public NaveCargueira() {
-        super(300); 
+        super(true, false, 0); // blindada => velocidade ignorada
     }
 
     protected String getNomeClasse() {
-        return "NaveCargueira";
+        return "Nave Cargueira";
     }
 }

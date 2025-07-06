@@ -1,9 +1,11 @@
+package ifsc.poo;
+
 public class NaveExploradora extends NaveEspacial {
     public NaveExploradora() {
-        super(1000); 
+        super(false, true, 18); // velocidade válida entre 12 e 20
     }
 
     protected String getNomeClasse() {
-        return "NaveExploradora";
+        return "Nave Exploradora";
     }
 }
